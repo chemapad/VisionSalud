@@ -46,9 +46,11 @@
 
 .navbar-inverse .navbar-nav>li:hover{
 	background: #00a99d;
+	border: 0;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
 	background: #00a99d;
+	border: 0;
 }
 
 #inicio  {
@@ -165,3 +167,25 @@
 	margin-right: 0;
 }
 
+.contacto {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'PierSans';
+  color: #f3f3f3;
+  padding-top: 5%;
+  padding-bottom: 50px;
+}
+
+.contacto img {
+	margin-top: 5%;
+	display: inline-block;
+}
+
+.contactoinfo {
+	font-size: 20px;
+}
+
+.derechos  {
+	margin-top: 5%;
+}
