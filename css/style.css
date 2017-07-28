@@ -65,16 +65,13 @@
 
 #inicio h1 {
 	color: #009086;
-	margin-left: 50%;
 	font-size: 45px;
 }
 
 #inicio h2 {
-	margin-left: 50%;
 	font-size: 25px;
 }
 #inicio p {
-	margin-left: 50%;
 	font-size: 17px;
 }
 #inicio a{
@@ -163,8 +160,7 @@
 
 .doctor {
 	margin-top: 13%;
-	margin-left: 35%;
-	margin-right: 0;
+	
 }
 
 .contacto {
@@ -188,4 +184,9 @@
 
 .derechos  {
 	margin-top: 5%;
+}
+
+.navbar-toggle.collapsed {
+	background-color: #4d4d4d;
+	color: blue;
 }
