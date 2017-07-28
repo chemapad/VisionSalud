@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>VisionSalud</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-center navbar-brand" href="#"><img src="img/VisionSalud.png" id="logo" height="220%" alt="GoalEmpresasLogo"></a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav pull-right">
+	      	<li><a href="#corner">INICIO</a></li>
+	      	<li><a href="#corner">NOSOTROS</a></li>
+	      	<li><a href="#corner">PERSONAL</a></li>
+	      	<li><a href="#corner">CONTACTO</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<!-- End Nabvar -->
+
+	<section class="container-fluid" id="inicio">
+		<div class="row pad">
+			<div class="col-md-12 d-inline">
+				<div>
+				<h2 class="text-center">PROFESIONALES DE LA SALUD VISUAL</h2>
+				<h1 class="text-center">¡VEMOS POR SU VISIÓN!</h1>
+				<p class="text-center">Acceda a toda la información de <a href="">Visión Salud</a> </p>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid nosotros center-block" id="nosotros">
+		<div class="row">
+			<div class="col-md-12 center-block">
+				<h2 > Misión y Visión </h2>
+				<p>Misión: Somos un consultorio, creado para promover, curar y rehabilitar la  salud visual de los pacientes que requieran atención oftalmológica de la región zuliana, contando con la mejor y mayor tecnología de punta y el más calificado equipo médico y personal altamente capacitado.</p>
+				<p class="vision">Visión: Ser el consultorio oftalmológico líder en la región zuliana por la excelencia en la atención a nuestros pacientes y brindando el mejor servicio aplicando tecnología de punta. </p>
+				
+			</div>
+		</div>
+	</section>					
+
+	<div class="container-fluid medico">
+			<div class="row">
+				<h1>Directorio médico</h1>
+				<div class="col-md-4">	
+				
+						<img src="img/doctorcirculogris.png"  width="75%"alt="" class="img-responsive img-circle doctor">
+							</div>
+							<div class="col-md-8 info">
+								<div><h2 >Dr. Jose Manuel Rosales Zambrano</h2>
+									<h3>Especialidad: Médico Oftalmólogo</h3>
+									<p>Cirugía Refractiva <br> Segmento Anterior <br>Facoemulsificación de Catarata</p>
+									<p>Honorario:<br>
+									   Médico Oftalmólogo; Cirugí­a Refractiva; Segmento Anterior; 
+									   Facoemulsificación de Catarata
+								</p>
+
+								
+								</div>
+								
+							
+							
+						
+						
+				
+			</div>
+			</div>
+		
+	</div>
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript">
+
+		 $(document).ready(function(){
+		    $('.slick').slick({
+
+		      centerMode: true,	
+		      autoplay:true,
+		   	  arrows:false,		
+		      dots: true,
+			  infinite: true,
+			  speed: 500,
+			  fade: true,
+			  cssEase: 'linear'
+		   });     
+		});
+
+
+	</script>
+	<script>
+	$(".navbar a").on("click", function(){
+   $(".navbar").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
+
+	</script>
+</body>
+</html>
